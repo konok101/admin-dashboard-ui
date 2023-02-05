@@ -14,7 +14,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { Icon } from '@iconify/react';
- import css from '../Navbar/NavItem.css'
+import styles from '../Navbar/NavItem.css'
 import { Link } from 'react-router-dom';
 const drawerWidth = 240;
 
@@ -31,14 +31,14 @@ function ResponsiveDrawer(props) {
     </li>,
     <li>
  <Icon icon="material-symbols:add-home-outline"  className="icon"  />
-<Link   className='dropdown' to="/review"> Category List
+<Typography   className='dropdown'  > Category List
     <Typography className='dropdown-content'>
     <li><Link className="subDrop" to="/contact">Primaam</Link></li>  
     <li><Link className="subDrop"  to="/login">Golden</Link></li>  
     <li><Link className="subDrop"  to="/about">Silver</Link></li>  
     <li><Link className="subDrop"  to="/about">Bronz</Link></li>  
     </Typography>
-    </Link></li>,
+    </Typography></li>,
     <li> <Icon icon="material-symbols:add-home-outline"  className="icon"  />  <Link className="link" to="/home">Customer list</Link></li>,
     <li>  <Icon icon="material-symbols:add-home-outline"  className="icon"  /> <Link className="link" to="/about">Booking List</Link></li>,
     <li> <Icon icon="material-symbols:add-home-outline"  className="icon"  /> <Link className="link" to="/contact">Inbox </Link></li>,
@@ -55,7 +55,7 @@ function ResponsiveDrawer(props) {
             {menuItems.map((text, index) => (
                 <ListItem key={text} disablePadding>
                     <ListItemButton>
-                        <ListItemText className="asa" primary={text} />
+                        <ListItemText   primary={text} />
                     </ListItemButton>
                 </ListItem>
             ))}
