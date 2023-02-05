@@ -1,15 +1,15 @@
 import { Box } from '@mui/material';
 import React from 'react';
-import Booking from './Booking';
+import Booking from './Booking/Booking';
 import BookingSummery from './BookingSummery';
 import TopComapnyInfo from './TopComapnyInfo';
 const Home = () => {
     return (
-        <Box sx={{marginLeft:"250px"}}>
-            <Booking/>
-            <BookingSummery/>
-            <TopComapnyInfo/>
-     </Box>
+        <Box >
+            <Booking />
+            <BookingSummery />
+            <TopComapnyInfo />
+        </Box>
     );
 };
 

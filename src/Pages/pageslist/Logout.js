@@ -2,7 +2,7 @@
 function Login() {
     return (
         <div>
-            Enter
+             This is for logout page
         </div>
     );
 }
