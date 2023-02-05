@@ -1,0 +1,44 @@
+[
+    {
+      "albumId": 1,
+      "id": "omasas453",
+      "name":"Calen Caco",
+      "title": "accusamus beatae ad facilis cum similique qui sunt",
+      "url": "https://i.ibb.co/dfrdDV3/gym6.jpg",
+      "thumbnailUrl": "https://i.ibb.co/dfrdDV3/gym6.jpg",
+      "average":95,
+      "staus":"green"
+    },
+    {
+      "albumId": 1,
+      "id": "omasas4343",
+      "name":"Calen Cario",
+      "title": "reprehenderit est deserunt velit ipsam",
+      "url": "https://i.ibb.co/QbwnvtM/konok.jpg",
+      "thumbnailUrl": "https://i.ibb.co/QbwnvtM/konok.jpg",
+      "average":92,
+      "staus":"black"
+
+    },
+    {
+      "albumId": 1,
+      "id": "omasas453",
+      "name":"Calen Caco",
+      "title": "officia porro iure quia iusto qui ipsa ut modi",
+      "url": "https://i.ibb.co/tL41zSJ/download.jpg",
+      "thumbnailUrl": "https://i.ibb.co/tL41zSJ/download.jpg",
+      "average":88,
+      "staus":"black"
+
+    },
+    {
+      "albumId": 1,
+      "id": "omasas453",
+      "name":"Calen Caco",
+      "title": "culpa odio esse rerum omnis laboriosam voluptate repudiandae",
+      "url": "https://i.ibb.co/MD4TJZJ/gym2.jpg",
+      "thumbnailUrl": "https://i.ibb.co/MD4TJZJ/gym2.jpg",
+      "average":71,
+      "staus":"green"
+    }
+]

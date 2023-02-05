@@ -14,9 +14,10 @@ import { Box } from '@mui/system';
 export default function BasicTable() {
   return (
     <div>
-      <Box sx={{ml:2, mt:2}}>
-        <Typography variant="h3">  Booking summery</Typography>
-       </Box>
+      <Box sx={{marginLeft:"-60%",mt:3}}>
+         <Typography variant="h3">  Booking summery</Typography>
+         <Typography >Lorem ipsum dolor sit amet Lorem  incidunt facilis!</Typography>
+      </Box>
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 650, mt: 3 }} size="small" aria-label="a dense table">
           <TableHead>
